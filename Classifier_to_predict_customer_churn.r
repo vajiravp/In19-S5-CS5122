@@ -61,7 +61,7 @@ CustomerChurn.pred.pca.knn30 = knn(train = CustomerChurn.train.pca$x[,1:5], test
 
 
 
-# Testing acuracy levels for eack K values
+# Testing acuracy levels for each K values
 table(CustomerChurn.pred.pca.knn3, CustomerChurn.testLabel)
 mean(CustomerChurn.pred.pca.knn3 == CustomerChurn.testLabel) # Acuracy level = 0.76
 
