@@ -1,3 +1,7 @@
+# Customer Churn assignment answer
+# Student name : Vajira Viduranga
+
+
 library("purrr")
 library(class)
 library(gmodels)
